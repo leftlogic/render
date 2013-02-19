@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.leftlogic.render"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>PhoneGap Render Wrapper</name>
+
+    <description>
+        Loads up a defined urls in landscape mode - for @leftlogic testing
+    </description>
+
+    <author href="http://leftlogic.com" email="remy@leftlogic.com">
+        Remy Sharp
+    </author>
+
+    <preference name="orientation" value="landscape" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="detect-data-types" value="false" />
+
+</widget>
